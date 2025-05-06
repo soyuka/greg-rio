@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d57088a1d964cdf0e8d56f4930d2c80c",
+    "content-hash": "d496e3eaaba07bb4151c16bc583e267d",
     "packages": [
         {
             "name": "api-platform/doctrine-common",
@@ -1041,16 +1041,16 @@
         },
         {
             "name": "api-platform/validator",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/api-platform/validator.git",
-                "reference": "ebe7a04a91e72ee770b9d7442085c1317cc5fd94"
+                "reference": "a7052710c60ca2c85a10b3e1d841f71d3e316fa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/api-platform/validator/zipball/ebe7a04a91e72ee770b9d7442085c1317cc5fd94",
-                "reference": "ebe7a04a91e72ee770b9d7442085c1317cc5fd94",
+                "url": "https://api.github.com/repos/api-platform/validator/zipball/a7052710c60ca2c85a10b3e1d841f71d3e316fa8",
+                "reference": "a7052710c60ca2c85a10b3e1d841f71d3e316fa8",
                 "shasum": ""
             },
             "require": {
@@ -1108,9 +1108,9 @@
                 "validator"
             ],
             "support": {
-                "source": "https://github.com/api-platform/validator/tree/v4.1.6"
+                "source": "https://github.com/api-platform/validator/tree/v4.1.7"
             },
-            "time": "2025-03-10T10:30:30+00:00"
+            "time": "2025-04-11T09:32:56+00:00"
         },
         {
             "name": "doctrine/collections",
