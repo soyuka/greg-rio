@@ -2,6 +2,7 @@
 
 namespace App\ApiResource;
 
+use ApiPlatform\Metadata\ApiProperty;
 use ApiPlatform\Metadata\Patch;
 use App\Dto\Device;
 use App\Entity\User;
@@ -26,8 +27,8 @@ final class EnableDevice
     public string $name;
 
     public function __construct(
-        public ?User $user,
-        public ?Device $device,
+        private readonly ?User $user,
+        private readonly ?Device $device,
     ) {
     }
 }

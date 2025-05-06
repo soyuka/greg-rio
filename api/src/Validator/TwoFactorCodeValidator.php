@@ -9,7 +9,6 @@ final class TwoFactorCodeValidator extends ConstraintValidator
 {
     public function validate(mixed $value, Constraint $constraint): void
     {
-        dd($value);
         /* @var TwoFactorCode $constraint */
 
         if (null === $value || '' === $value) {
